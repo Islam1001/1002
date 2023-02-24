@@ -45,7 +45,7 @@ time_bio = ["off"]
 
 async def join_channel():
     try:
-        await fifthon(JoinChannelRequest("@fifthon"))
+        await fifthon(JoinChannelRequest("@hasoni_lq"))
     except BaseException:
         pass
 
@@ -104,12 +104,12 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
-**☆ سـورس حلم 
+**☆ Source : Hasoni Alnajar 
 ☆ Version : 2.0
 ☆ Ping : `{ms}`
 ☆ Date : `{m9zpi}`
-☆ ID : `{event.sender_id}`
-☆ حبيبي دز الصيد بلكروب: @jnuun **
+☆ ID : `{event.sender_id}` 
+**
 ''')
 
 
@@ -142,7 +142,7 @@ ownerhson_id = 1041483862
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('●━━━━━━ @HLLAM ━━━━━━●')
+        order = await event.reply('●━━━━━━ @HssHH ━━━━━━●')
 
 
 @fifthon.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
